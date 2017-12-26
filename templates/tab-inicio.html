@@ -1,0 +1,24 @@
+<ion-view view-title="Mis clientes">
+  <ion-content class="padding">
+  <button class="button button-large button-positive icon-left ion-ios-plus" ng-click="agregar()">
+  Agregar
+  </button>
+
+  <div class="filters row" style="margin-bottom: 3%">
+      <div class="form-group col-sm-3">
+       
+        <input type="text" ng-model="nombre" class="form-control" placeholder="Buscar " />
+      </div>
+  </div>
+
+    <div class="list" ng-repeat="persona in personas | filter:nombre " ng-click="ver(persona.id)">
+
+    <a class="item item-avatar"  >
+      <img src="img/icon.png">
+      <h2>{{persona.nombres}} {{persona.apellidos}}</h2>
+      <p>Total : {{persona.total}}</p>
+    </a>
+
+   </div>
+  </ion-content>
+</ion-view>

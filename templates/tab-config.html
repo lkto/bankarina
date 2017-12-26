@@ -1,0 +1,24 @@
+<ion-view view-title="Configuracion">
+  <ion-content class="padding">
+
+  <div class="list list-inset">
+  <label class="item item-input">
+    <input type="password" placeholder="Clave actual" ng-model="clavea" id="clavea">
+  </label>
+  <label class="item item-input">
+    <input type="password" placeholder="Nueva Clave" ng-model="nuevo" id="nuevo">
+  </label>
+  <label class="item item-input">
+    <input type="password" placeholder="Confirmar Clave" ng-model="confirmar" id="confirmar">
+  </label>
+</div>
+
+  <button class="button button-large button-positive " ng-click="cambiar()">
+  Cambiar
+  </button>
+
+  <button class="button button-large button-positive " ng-click="salir()">
+  Salir
+  </button>
+  </ion-content>
+</ion-view>

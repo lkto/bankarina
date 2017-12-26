@@ -1,0 +1,56 @@
+/* Empty. Add your own CSS if you like */
+
+.bar.bar-stable{
+	border-color: #00695C;
+    background-color: #00796B;
+}
+
+.bar.bar-stable .title{
+	color: white;
+}
+
+ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-striped.tabs-color-active-positive .tab-item.activated{
+	color: white;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated{
+	    color: white;
+}
+ion-tabs.tabs-color-active-positive .tab-item{
+	color: white;
+}
+
+.button.button-positive{
+	border-color: transparent;
+    background-color: #00796B;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.button.button-positive.activated{
+	border-color: transparent;
+    background-color: #00695C;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.list{
+	margin-bottom: 2px; 
+}
+
+.tabs{
+    border-color:  #00796B !important;
+    background-color:#00796B !important;
+    color: white  !important;
+}
+
+.bar-stable .button.button-clear{
+	color: white;
+}
+.btn{
+		
+		background-color: #00796B;
+		color: white;
+}

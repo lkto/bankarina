@@ -1,0 +1,18 @@
+<ion-view view-title="Ver Clientes">
+  <ion-content class="padding">
+  <button class="button button-large button-positive icon-left ion-ios-plus" ng-click="agregarM()">
+  Agregar
+  </button>
+  <div class="list" ng-repeat="ver in ver ">
+
+    <a class="item item-avatar"  >
+      <img src="img/icon.png">
+      <h2>{{ver.nombres}} {{ver.apellidos}}</h2>
+      <p>TIpo : {{ver.tipo}}</p>
+      <p>Cantidad : {{ver.cantidad}}</p>
+      <p>Fecha : {{ver.fecha}}</p>
+    </a>
+
+   </div>
+  </ion-content>
+</ion-view>

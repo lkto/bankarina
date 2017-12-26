@@ -1,0 +1,21 @@
+<ion-view view-title="Agregar Movimientos">
+  <ion-content class="padding">
+<div class="list list-inset">
+  
+  <label class="item item-input item-select">
+    <div class="input-label">
+      Tipo
+    </div>
+    <select id="tipo">
+      <option ng-repeat="tipo in tipo " value="{{tipo.id}}">{{tipo.nombre}}</option>
+    </select>
+  </label>
+  <label class="item item-input">
+    <input type="number" placeholder="Cantidad" ng-model="cantidad" id="cantidad">
+  </label>
+</div>
+<button class="button button-full button-positive" ng-click="guardarM()">
+  Registrar
+</button>
+  </ion-content>
+</ion-view>
